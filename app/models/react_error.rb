@@ -1,0 +1,2 @@
+class ReactError < ApplicationRecord
+end
