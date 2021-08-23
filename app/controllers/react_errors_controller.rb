@@ -4,8 +4,7 @@ class ReactErrorsController < ApplicationController
   # GET /react_errors
   def index
     @react_errors = ReactError.all
-
-    render json: @react_errors
+    render json: @react_errors.to_json
   end
 
   # GET /react_errors/1
